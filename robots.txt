@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: http://jjgrainger.co.uk/sitemap.xml

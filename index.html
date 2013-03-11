@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+
+{% for post in site.posts limit:1 %}
+
+<article>
+	<h1 class="post-title">{{ post.title }}</h1>
+	<span class="post-date">&mdash; {{ post.date || date: "%d %B %Y" }} &mdash;</span>
+	
+
+	{{ post.content }}
+	
+</article>
+
+<aside>
+
+{% if post.previous %}
+	<a class="post-prev" href="{{ post.previous.url }}">&larr; {{ post.previous.title }}</a>
+{% endif %}
+
+{% if post.next %}
+	<a class="post-next" href="{{ post.next.url }}">{{ post.next.title }} &rarr;</a>
+{% endif %}
+
+</aside>
+
+{% endfor %}

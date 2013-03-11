@@ -1,0 +1,26 @@
+{% include head.html %}
+
+<article>
+	<h1 class="post-title">{{ page.title }}</h1>
+	<span class="post-date">&mdash; {{ page.date || date: "%d %B %Y" }} &mdash;</span>
+	
+	
+	{{ content }}
+	
+</article>
+
+{% include comments.html %}
+
+<aside>
+
+{% if page.previous %}
+	<a class="post-prev" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+{% endif %}
+
+{% if page.next %}
+	<a class="post-next" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+{% endif %}
+
+</aside>
+
+{% include footer.html %}
