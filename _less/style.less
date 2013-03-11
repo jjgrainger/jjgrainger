@@ -38,6 +38,10 @@ html, body {
 	padding: 1em 0 0;
 }
 
+body {
+		overflow-y: scroll;
+}
+
 .body {
 	width: 85%;
 	max-width: 38em;
@@ -120,6 +124,11 @@ a:hover {
 	cursor: pointer;
 }
 
+abbr,
+acronym {
+	border-bottom: 1px dotted @grey;
+	cursor: help;
+}
 
 var,
 kbd,
@@ -221,6 +230,9 @@ footer .nav li {
 	text-align: center;
 }
 
+.post-title a {
+	text-decoration: none;
+}
 
 
 p + h1,
