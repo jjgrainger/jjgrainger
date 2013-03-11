@@ -48,15 +48,6 @@ body {
 	margin: 0 auto;
 }
 
-header,
-footer {
-	font-family: @sans;
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-
 header {
 	border-bottom: 1px solid #eee;
 	margin-bottom: 4em;
@@ -69,6 +60,13 @@ footer {
 	padding: 2em 0;
 }
 
+header,
+footer {
+	font-family: @sans;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 footer,
 header,
@@ -285,6 +283,11 @@ p + h6 {
 }
 
 @media screen and (max-width: 320px) {
+
+	body {
+		font-size: 12px;
+	}
+
 	header,
 	footer {
 		font-size: 11px;
