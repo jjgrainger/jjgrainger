@@ -2,7 +2,10 @@
 
 <article>
 	<h1 class="post-title">{{ page.title }}</h1>
-	<span class="post-date">&mdash; {{ page.date || date: "%d %B %Y" }} &mdash;</span>
+	<span class="post-date">
+		&mdash; {{ page.date || date: "%d %B %Y" }},
+		by <a href="{{ BASE_PATH }}/info/" rel="author">jjgrainger</a> &mdash;
+	</span>
 	
 	
 	{{ content }}
