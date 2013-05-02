@@ -2,29 +2,23 @@
 layout: default
 ---
 
+<div class="row">
+	<div class="col-8">
 
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:4 %}
+		<article class="post post-front">
+			<span class="post-date">{{ post.date || date: "%B %d, %Y" }}</span>
+			<h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<p class="post-excerpt">{{ post.excerpt }}</p>
+			
+			<a href="{{ post.url }}" class="post-readmore">Read on</a>
+		</article>
 
-<article>
-	<h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<span class="post-date">
-		&mdash; {{ post.date || date: "%d %B %Y" }},
-		by <a href="{{ BASE_PATH }}/info/" rel="author">jjgrainger</a> &mdash;
-	</span>
-
-	
-</article>
-
-<aside>
-
-{% if post.previous %}
-	<a class="post-prev" href="{{ post.previous.url }}">&larr; {{ post.previous.title }}</a>
-{% endif %}
-
-{% if post.next %}
-	<a class="post-next" href="{{ post.next.url }}">{{ post.next.title }} &rarr;</a>
-{% endif %}
-
-</aside>
 
 {% endfor %}
+
+	</div>
+	<div class="col-3 push-1">
+		{% include aside.html %}
+	</div>
+</div>

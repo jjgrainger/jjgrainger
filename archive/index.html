@@ -1,24 +1,27 @@
 ---
-layout: nil
+layout: default
+title: Archive
 ---
 
-{% include head.html %}
+<div class="row">
+	<div class="col-8">
+		<h1>Archive</h1>
+		<ol class="archive-post-list">
 
-<section>
-<h1>Archive</h1>
+			{% for post in site.posts %}
 
-<ol class="archive-post-list">
+			<li>
+				<span class="archive-date post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
 
-{% for post in site.posts %}
+			{% endfor %}
 
-<li>
-	<span class="archive-date">{{ post.date | date: "%d %b %y" }}</span>
-	<a href="{{ post.url }}">{{ post.title }}</a>
-</li>
+		</ol>
+	</div>
+	<div class="col-3 push-1">
+		{% include aside.html %}
+	</div>
+</div>
 
-{% endfor %}
-
-</ol>
 </section>
-
-{% include footer.html %}

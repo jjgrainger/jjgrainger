@@ -1,0 +1,26 @@
+@import '_grid-generator.less';
+
+@total-width: 960px;
+@column-width: 60px;
+@columns: 12;
+@grid-type: fluid;
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+	overflow: visible;
+    *zoom: 1;
+}

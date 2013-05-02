@@ -2,6 +2,7 @@
 title: Starting a new with Jekyll
 date: 2013/03/11
 layout: post
+excerpt: An introduction to Jekyll highlighting its features and the reasons why I've changed my blog.
 ---
 
 

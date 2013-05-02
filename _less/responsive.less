@@ -1,0 +1,81 @@
+/*-----------------------------*\
+
+	responsive.less
+	Repsonsive styles compiled with LESS
+
+\*-----------------------------*/
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+@media (max-width: 1024px) {
+
+	.row {
+		width: 960px;
+	}
+
+}
+
+@media (max-width: 960px) {
+	
+	.dev-body:before {
+		content: "max-width: 960px";
+	}
+
+	.row {
+		width: 800px;
+	}
+
+}
+
+@media (max-width: 800px),
+	   (max-width: 768px) {
+
+	.row {
+		width: 89.5%;
+	}
+
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11 {
+		width: 97.91666666666666%;
+		margin: 0 1.0416666666666665% 20px;
+	}
+
+}
+
+
+@media (max-width: 600px) {
+		
+	body {
+		font-size: 14px;
+	}
+
+
+}
+
+@media (max-width: 480px) {
+		
+	body {
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width: 320px) {
+
+	header,
+	footer {
+		font-size: 10px;
+	}
+
+}

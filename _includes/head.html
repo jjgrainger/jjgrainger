@@ -6,7 +6,7 @@
 		<!-- SEO Meta -->
 		<title>
 			{% if page.title %} {{ page.title }} &mdash; {% endif %}
-			{{ site.title }} {{ site.description }}
+			{{ site.title }}, {{ site.description }}
 		</title>
 		<meta name="author" content="Joe Grainger">
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
@@ -15,20 +15,22 @@
 		<link rel="stylesheet" href="/css/style.css">
 		<script type="text/javascript" src="/js/html5.js"></script>
 
-	{% include analytics.html %}</head>
+		{% include analytics.html %}
+	</head>
 	
 	<body>
-		<div class="body">
+
 		<header>
-			<a class="site-title" href="/">jjgrainger</a>
+			<div class="row">
+				<div class="col-12">
+					<a class="site-title" href="/">jjgrainger</a>
 			
-			<ul class="nav">
-				<li><a href="/info/">Info</a></li>
-				<li><a href="/archive/">Archive</a></li>
-				<li><a href="http://www.twitter.com/jjgrainger">Twitter</a></li>
-				<li><a href="http://feeds.feedburner.com/jjgrainger">RSS</a></li>
-			</ul>
-			
-			
-			
+					<ul class="nav">
+						<li><a href="/info/">Info</a></li>
+						<li><a href="/archive/">Archive</a></li>
+						<li><a href="http://www.twitter.com/jjgrainger">Twitter</a></li>
+						<li><a href="http://feeds.feedburner.com/jjgrainger">RSS</a></li>
+					</ul>
+				</div>
+			</div>
 		</header>

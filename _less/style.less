@@ -12,7 +12,9 @@
  
 \*------------------------------------------------------------------*/
 
-@import 'structure.reset.less';
+@import '_reset.less';
+@import 'grid.less';
+
 
 /*--- LESS Variables ---*/
 
@@ -23,15 +25,16 @@
 @black:	#000;
 @grey: #878683;
 @grey-dark: #454545;
-@grey-light: #eee;
+@grey-light: #bfbfbf;
 
-@brand: darken(#2c9add, 10%);
+//@brand: darken(#2c9add, 10%);
+@brand: #2C3E50;
 @brand2: #2c9add;
 
 
 html, body {
 	font-family: @sans;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.675;
 	word-spacing: 0.175em;
 	color: #444;
@@ -40,7 +43,7 @@ html, body {
 }
 
 body {
-		overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 .body {
@@ -50,13 +53,13 @@ body {
 }
 
 header {
-	border-bottom: 1px solid #eee;
+	// border-bottom: 1px solid #eee;
 	margin-bottom: 4em;
 }
 
 footer {
 	text-align: center;
-	border-top: 1px solid #eee;
+	// border-top: 1px solid #eee;
 	margin-top: 4em;
 	padding: 2em 0;
 }
@@ -95,8 +98,8 @@ ol {
 }
 
 
-h1, .alpha		{font-size: 2.66em;}
-h2, .beta 		{font-size: 2em;}
+h1, .alpha		{font-size: 2em;}
+h2, .beta 		{font-size: 1.875em;}
 h3, .gamma 		{font-size: 1.5em;}
 h4, .delta 		{font-size: 1.166em;}
 h5, .epsilon 	{font-size: 1em;}
@@ -109,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	color: @grey-dark;
 	line-height: 1.25em;
-	text-align: center;
+	//text-align: center;
 	margin-bottom: 1em;
 }
 
@@ -208,28 +211,55 @@ footer .nav li {
 	margin: 0 .5em;
 }
 
+
+.aside {
+	font-size: 0.875em;
+	color: @grey;
+}
+
+.aside p {
+	margin-bottom: 1em;
+}
+
 /*--- Post ---*/
 
+.post {}
+.post-single {}
+.post-archive {}
+.post-front {
+	margin-bottom: 3.5em;
+	// border-bottom: 1px solid #eee;
+}
+
 .post-title {
-	margin-bottom: 0.125em;
-	font-size: 3.11em;
+	// margin-bottom: 0.125em;
+	font-size: 2.66em;
 	line-height: 1.25em;
 }
 
 .post-date {
-	font-style: italic;
-	font-size: 0.875em;
-	color: @grey;
+	// font-style: italic;
+	font-size: 0.75em;
+	color: @grey-light;
 	display: block;
-	margin-bottom: 3em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	//margin-bottom: 3em;
 }
 
 .post-title,
 .post-date {
-	text-align: center;
+	//text-align: center;
+}
+
+.post-excerpt {
+	margin-top: -2em;
+	margin-bottom: 0.5em;
+	color: @grey;
 }
 
 .post-title a {
+	// color: inherit;
 	text-decoration: none;
 }
 
@@ -265,32 +295,30 @@ p + h6 {
 }
 
 .archive-date {
-	font-style: italic;
-	font-size: 0.875em;
-	color: @grey;
-	margin-right: 3em;
-	width: 100px;
+	margin-right: 2em;
 	display: inline-block;
 }
 
 /*--- Responsive ---*/
 
-@media screen and (max-width: 600px) {
-	html, body {font-size: 16px;}
-}
+@import 'responsive.less';
 
-@media screen and (max-width: 480px) {
-	html, body {font-size: 14px;}
-}
+// @media screen and (max-width: 600px) {
+// 	html, body {font-size: 16px;}
+// }
 
-@media screen and (max-width: 320px) {
+// @media screen and (max-width: 480px) {
+// 	html, body {font-size: 14px;}
+// }
 
-	body {
-		font-size: 12px;
-	}
+// @media screen and (max-width: 320px) {
 
-	header,
-	footer {
-		font-size: 10px;
-	}
-}
+// 	body {
+// 		font-size: 12px;
+// 	}
+
+// 	header,
+// 	footer {
+// 		font-size: 10px;
+// 	}
+// }
