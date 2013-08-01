@@ -360,7 +360,7 @@ h5,
 h6 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  color: #454545;
+  color: #000000;
   line-height: 1.25em;
   margin-bottom: 1em;
 }
@@ -464,6 +464,9 @@ footer .nav li {
 .post-title {
   font-size: 2em;
   line-height: 1.25em;
+}
+.post-title a {
+  color: #000000;
 }
 .post-date {
   font-size: 0.75em;
