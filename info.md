@@ -13,5 +13,5 @@ I [write](http://jjgrainger.co.uk) and [tweet](http://www.twitter.com/jjgrainger
 You can subscribe to my blog via [RSS](http://www.feedburner.com/jjgrainger), follow me on
 [Twitter](http://www.twitter.com/jjgrainger) or [Google+](https://plus.google.com/116065378192330753914)
 
-This site is powered by [Jekyll](https://github.com/mojombo/jekyll), managed with [git](http://git-scm.com/ and hosted with [Github Pages](http://pages.github.com/). Comments are served using [Disqus](http://disqus.com/).
+This site is powered by [Jekyll](https://github.com/mojombo/jekyll), managed with [git](http://git-scm.com/) and hosted with [Github Pages](http://pages.github.com/). Comments are served using [Disqus](http://disqus.com/).
 
