@@ -1,0 +1,229 @@
+html,
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #404040;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+/*--- Typography ---*/
+
+p {
+	line-height: 1.5;
+	margin: 0 0 1.5em;
+}
+
+strong, b {
+  font-weight: 500;
+}
+
+em, i {
+  font-style: italic;
+  font-weight: normal;
+}
+
+strike, s {
+  text-decoration: line-through;
+  color: #878683;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: .875em 0 1em;
+}
+
+h1, .alpha {font-size: 2em;}
+h2, .beta {font-size: 1.5em;}
+h3, .gamma {font-size: 1.375em}
+h4, .delta {font-size: 1.175em;}
+h5, .epsilon {font-size: 1em;}
+h6, .zeta { font-size: 0.875em;}
+
+
+
+/*--- Links ---*/
+
+a {
+	color: #222;
+}
+
+a:hover {
+	color: #3d9ddd;
+}
+
+
+
+/*--- Lists ---*/
+
+ol,
+ul {
+	padding-left: 2em;
+	margin-bottom: 1.5em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+
+/*--- Code ---*/
+
+var,
+kbd,
+code,
+pre code {
+	font-family: Courier, monospace;
+	font-size: 0.875em;
+	letter-spacing: 1px;
+	padding: 0.3em;
+	background: #f1f1f2;
+}
+
+pre code {
+	display: block;
+	overflow-x: hidden;
+	padding: 1em;
+	margin-bottom: 1.5em;
+}
+
+
+
+
+/*--- Nav Object ---*/
+
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav li {
+	display: inline;
+	margin-right: 1em;
+}
+
+
+.post-title a,
+.nav a {
+	text-decoration: none;
+}
+
+
+
+/*--- Navigation ---*/
+
+.menu-header {
+	float: right;
+	overflow: hidden;
+}
+
+
+
+/*--- Post Object ---*/
+
+.post-title {
+	margin: 0 0 1em;
+}
+
+.post-date {
+	font-size: 0.875em;
+	text-transform: uppercase;
+	color: #888;
+	letter-spacing: 1px;
+}
+
+
+
+/*--- Post list ---*/
+
+.post-list {
+	margin: 0;
+	padding: 0;
+}
+
+.post-list li {
+	margin-bottom: 1em;
+	list-style-type: none;
+}
+
+.archive-date {
+	display: inline-block;
+	width: 200px;
+}
+
+
+
+/*--- Main Sections ---*/
+
+.site-wrap {
+	max-width: 740px;
+	margin: 0 auto;
+	padding: 0 2em;
+}
+
+.main-header,
+.main-footer {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+.main-header {
+	margin: 20px 0 40px;
+}
+
+.main-footer {
+	text-align: center;
+}
+
+.site-title {
+	text-decoration: none;
+}
+
+.section {
+	margin-bottom: 20px;
+}
+
+
+
+/*--- $Responsive ---*/
+
+@media (max-width: 600px) {
+	body {
+		font-size: 14px;
+	}
+
+	.archive-date {
+		display: block;
+		margin-bottom: 5px;
+	}
+	
+	.post-list li {
+		margin-bottom: 1.25em;
+	}
+
+}
+
+@media (max-width: 320px) {
+	body {
+		font-size: 12px;
+	}
+}

@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 	<head>
+
 		<meta charset="utf-8" />
 		
-		<!-- SEO Meta -->
 		<title>
 			{% if page.title %} {{ page.title }} &mdash; {% endif %}
 			{{ site.title }}, {{ site.description }}
 		</title>
 		<meta name="author" content="Joe Grainger">
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-
+		
+		<link rel="author" href="https://plus.google.com/116065378192330753914">
 		<link rel="alternate" href="http://www.feedburner.com/jjgrainger" title="jjgrainger">
-		<link rel="stylesheet" href="/css/style.css">
-		<script type="text/javascript" src="/js/html5.js"></script>
+		<link rel="stylesheet" href="/assets/css/reset.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<script type="text/javascript" src="/assets/js/html5.js"></script>
 
 		{% include analytics.html %}
+
 	</head>
 	
 	<body>
+		
+		<div class="site-wrap">
 
-		<header>
-			<div class="row">
-				<div class="col-12">
-					<a class="site-title" href="/">jjgrainger</a>
-			
-					<ul class="nav">
-						<li><a href="/info/">Info</a></li>
-						<li><a href="/archive/">Archive</a></li>
-						<li><a href="http://www.twitter.com/jjgrainger">Twitter</a></li>
-						<li><a href="http://feeds.feedburner.com/jjgrainger">RSS</a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
+			<header class="main-header">
+				
+				<a class="site-title" href="/">jjgrainger</a>
+		
+				<ul class="nav menu-header">
+					<li><a href="/info/">Info</a></li>
+					<li><a href="http://www.twitter.com/jjgrainger">Twitter</a></li>
+					<li><a href="http://feeds.feedburner.com/jjgrainger">RSS</a></li>
+				</ul>
+
+			</header>
