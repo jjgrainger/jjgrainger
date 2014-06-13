@@ -30,7 +30,9 @@ And we're ready to rock and roll. We're going to use a 'books' example to demons
 
 To create a post type you simple create a new object from the class passing the post type name.
 
-	$books = new CPT('book');
+{% highlight php startinline %}
+$books = new CPT('book');
+{% endhighlight %}
 
 The post type name is required as the class will automatically generate the labels from this name (by capitalizing and adding an 's' at the end). If you post type name cannot be pluralized this way e.g Person -> People, you can provide an array of the names you want:
 
