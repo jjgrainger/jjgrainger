@@ -9,6 +9,7 @@ permalink: /:year/:month/:day/:title/
 
 # use pygments for syntax highlighting
 pygments: true
+markdown: kramdown
 
 # author information
 author: "jjgrainger"
