@@ -1,18 +1,39 @@
-{% include head.html %}
+---
+layout: default
+---
 
-	<section class="section section-post">
-	
-		<article class="post post-single">
 
-			<span class="post-date">{{ page.date || date: "%B %d, %Y" }}</span>
-			<h1 class="post-title">{{ page.title }}</h1>
-			
-			{{ content }}
-			
-		</article>
-		
-		{% include comments.html %}
+    <article class="single-post" itemscope itemtype="http://schema.org/BlogPosting">
 
-	</section>
+        <p class="post-meta">
+            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ page.date | date_to_long_string }}
+            </time>
+        </p>
 
-{% include footer.html %}
+        <h1 class="post-title">{{ page.title }}</h1>
+
+
+        <div itemprop="articleBody">
+
+            {{ content }}
+
+        </div>
+
+        <div class="post-nav">
+            {% if page.previous %}
+                <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" id="prev">
+                    &larr; <span class="nav-title nav-title-prev">older</span>
+                </a>
+            {% endif %}
+
+                {% if page.next %}
+                <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
+                    <span class="nav-title nav-title-next">newer</span> &rarr;
+                </a>
+            {% endif %}
+        </div>
+
+    </article>
+
+    {% include comments.html %}

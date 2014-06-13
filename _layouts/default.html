@@ -1,9 +1,56 @@
-{% include head.html %}
+<!doctype html>
+<html lang="en">
 
-	<section class="section section-page">
-		
-		{{ content }}
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="content-language" content="en-gb" />
 
-	</section>
 
-{% include footer.html %}
+        <title>
+            {% if page.title %} {{ page.title }} &mdash; {% endif %}
+            {{ site.name }}, {{ site.description }}
+        </title>
+
+        <meta name="author" content="{{ site.author }}" />
+        <meta name="description" content="{{ site.description }}" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+        {% if site.google_authorship %}
+        <link rel="author" href="{{ site.google_authorship }}">
+        {% endif %}
+        <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:400,700,600|Source+Code+Pro' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/reset.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" />
+
+
+        {% include analytics.html %}
+
+    </head>
+
+    <body>
+
+        <header>
+            <a href="{{ site.baseurl }}/" title="Back to Homepage" class="site-title">{{ site.name }}</a>
+
+            <ul class="nav menu-header">
+                <li><a href="/info/">Info</a></li>
+                <li><a href="http://www.twitter.com/jjgrainger">Twitter</a></li>
+                <li><a href="http://feeds.feedburner.com/jjgrainger">RSS</a></li>
+            </ul>
+        </header>
+
+        <main>
+            {{ content }}
+        </main>
+
+        <footer>
+            <!-- <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a> - <a href="http://jjgrainger.co.uk/smpl">Smpl</a> Theme by <a href="http://jjgrainger.co.uk/">jjgrainger</a></p> -->
+            <p>:)</p>
+        </footer>
+
+    </body>
+</html>
