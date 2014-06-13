@@ -1,5 +1,18 @@
-server_port: 8000
-title:  "jjgrainger"
+# site information
+name:  "jjgrainger"
 description: "Web Developer, Falmouth, Cornwall, UK"
+baseurl: "http://jjgrainger.co.uk"
+
+# post settings
+# define permalink structure
 permalink: /:year/:month/:day/:title/
-url: "http://jjgrainger.co.uk"
+
+# use pygments for syntax highlighting
+pygments: true
+
+# author information
+author: "jjgrainger"
+author_email: "joe@jjgrainger.co.uk"
+
+# google authorship url
+google_authorship: "https://plus.google.com/116065378192330753914"
