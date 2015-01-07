@@ -1,14 +1,13 @@
 # site information
 name:  "jjgrainger"
 description: "Web Developer, Falmouth, Cornwall, UK"
-baseurl: "http://jjgrainger.co.uk"
 
 # post settings
 # define permalink structure
 permalink: /:year/:month/:day/:title/
 
 # use pygments for syntax highlighting
-pygments: true
+highlighter: pygments
 markdown: kramdown
 
 # author information
