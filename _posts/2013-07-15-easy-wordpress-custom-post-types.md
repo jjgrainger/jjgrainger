@@ -1,5 +1,5 @@
 ---
-title: Easy Wordpress Custom Post Types
+title: Easy Wordpress custom post types
 date: 2013/07/15
 layout: post
 excerpt: I've created a PHP Class for creating Wordpress Custom Post Types quickly and easily.

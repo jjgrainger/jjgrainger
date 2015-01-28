@@ -1,5 +1,5 @@
 ---
-title: Write Everyday
+title: Write everyday
 date: 2015/01/07
 layout: post
 ---
