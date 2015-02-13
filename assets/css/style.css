@@ -38,13 +38,16 @@ article {
     margin-bottom: 3rem;
 }
 
+header {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
 .post-nav {
     clear: both;
     overflow: hidden;
 }
 
 footer {
-
     text-align: center;
     font-size: 0.875em;
     line-height: 1.724em;
@@ -174,6 +177,7 @@ blockquote p {
 
 
 .post-title {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     margin-top: 0;
     text-align: center;
 }
