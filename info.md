@@ -4,14 +4,19 @@ title: Info
 permalink: /info/
 ---
 
-Hello, my name is Joe Grainger and I'm a web developer living in Falmouth,
-Cornwall. I work at [Venn Creative](http://venncreative.co.uk/),
-a small design agency providing services in print, graphic and web design and development.
+Hello, I'm Joe Grainger.
 
-I [write](http://jjgrainger.co.uk) and [tweet](http://www.twitter.com/jjgrainger) stuff about the tinterweb and attempt to build useful things for web geeks like myself and host them open source on [Github](http://www.github.com/jjgrainger/).
+I'm a web developer living in Falmouth, Cornwall, currently working at [Venn&nbsp;Creative](http://venncreative.co.uk/).
 
-You can subscribe to my blog via [RSS](http://www.feedburner.com/jjgrainger), follow me on
-[Twitter](http://www.twitter.com/jjgrainger) or [Google+](https://plus.google.com/116065378192330753914)
+I [build](http://www.github.com/jjgrainger/) things with code, I [write](http://jjgrainger.co.uk) stuff about code and I [tweet](http://www.twitter.com/jjgrainger) tweets about code too.
 
-This site is powered by [Jekyll](https://github.com/mojombo/jekyll), managed with [git](http://git-scm.com/) and hosted with [Github Pages](http://pages.github.com/). Comments are served using [Disqus](http://disqus.com/).
+You can find me on [Twitter](http://www.twitter.com/jjgrainger), [Github](http://www.github.com/jjgrainger/) and [Google+](https://plus.google.com/116065378192330753914).
 
+For those interested, this site is:
+
+* Powered by [Jekyll](https://github.com/mojombo/jekyll)
+* Coded with [Sublime Text](http://www.sublimetext.com/)
+* Hosted with [Github Pages](http://pages.github.com/)
+* Comments are served using [Disqus](http://disqus.com/).
+
+Subscribe to this [RSS Feed](http://feeds.feedburner.com/jjgrainger) for notifications on new posts.

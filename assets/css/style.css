@@ -11,8 +11,8 @@ body {
 }
 
 body {
-    max-width: 42em;
-    padding: 3em 1em;
+    max-width: 32em;
+    padding: 1.5em 1em 3em;
     margin: 0 auto;
 }
 
@@ -29,6 +29,7 @@ blockquote p {
 
 img {
     display: block;
+    width: 100%;
     max-width: 100%;
 }
 
