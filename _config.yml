@@ -1,6 +1,8 @@
 # site information
 name:  "@jjgrainger"
 description: "Web Developer, Falmouth, Cornwall, UK"
+baseurl: ""
+url: "http://jjgrainger.co.uk"
 
 # post settings
 # define permalink structure

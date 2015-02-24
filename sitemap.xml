@@ -8,8 +8,13 @@ layout: null
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
-{% for page in site.posts %}  <url>
-    <loc>{{ site.url }}{{ page.url }}</loc>
+  <url>
+    <loc>{{ site.url }}/info</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+{% for page in site.posts %}
+  <url>
+    <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
     <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
   </url>
