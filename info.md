@@ -4,6 +4,8 @@ title: Info
 permalink: /info/
 ---
 
+#Info
+
 Hello, I'm Joe Grainger.
 
 I'm a web developer living in Falmouth, Cornwall, currently working at [Venn&nbsp;Creative](http://venncreative.co.uk/).
