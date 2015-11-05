@@ -1,23 +1,15 @@
 html,
 body {
-    font-family: "Lora", Georgia, serif;
-    font-family: "Roboto", sans-serif;
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px;
-    font-weight: light;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    /*font-weight: light;*/
     line-height: 1.8;
     color: #444;
     background-color: #fff;
-    /*background-color: #eee;*/
+    background-color: #f1f2f4;
     /*text-rendering: optimizeLegibility;*/
     /*-webkit-font-smoothing: antialiased;*/
     -webkit-text-size-adjust: none;
-}
-
-body {
-    max-width: 36em;
-    padding: 1.5em 1em 3em;
-    margin: 0 auto;
 }
 
 p,
@@ -44,12 +36,22 @@ article {
 }
 
 header {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     background-color: #fff;
-    font-size: 12px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+    /*padding: 1.5rem;*/
+    font-size: 14px;
+}
+
+.row {
+    max-width: 36rem;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 36rem;
+    padding: 1.5rem 1rem 3rem;
+    margin: 0 auto;
 }
 
 .post-nav {
@@ -67,16 +69,14 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 3rem 0 1.5rem;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #121212;
+    color: #000;
 }
 
 h1 {
     font-size: 2.25em;
     line-height: 1.333em;
+    margin-top: 0;
 }
 
 h2 {
@@ -140,12 +140,13 @@ a,
 a:link,
 a:visited,
 a:active {
-    color: #3d9ddd;
+    color: #000;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid #000;
 }
 
 ol,
@@ -189,11 +190,9 @@ blockquote p {
 
 
 .post-title {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     margin-top: 0;
     text-align: center;
+    font-weight: 600;
 }
 
 .post-meta {
@@ -213,15 +212,24 @@ blockquote p {
     display: inline;
 }
 
+.post-content {
+    margin-bottom: 4.5rem;
+}
 
-#prev,
-#next {
+
+.post-nav--prev,
+.post-nav--next {
     width: 50%;
     float: left;
 }
 
+.post-nav--prev:hover,
+.post-nav--next:hover {
+    border: 0;
+}
 
-#next {
+
+.post-nav--next {
     float: right;
     text-align: right;
 }
@@ -233,7 +241,7 @@ blockquote p {
 .post-list li {
     overflow: hidden;
     list-style-type: none;
-    margin-bottom: .75em;
+    margin-bottom: 1.5em;
 }
 
 .post-list .post-date {
@@ -246,6 +254,7 @@ blockquote p {
     /*width: 80%;*/
     /*float: right;*/
     /*text-align: left;*/
+    font-size: 1.125em;
 }
 
 .center {
