@@ -24,6 +24,6 @@ var html5 = [
 var i;
 
 for(i=0; i<html5.length; i++) {
-	
+
 	document.createElement(html5[i]);
 }
