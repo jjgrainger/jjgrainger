@@ -10,7 +10,7 @@ permalink: /
 			{% for post in site.posts %}
 
 			<li>
-				<span class="archive-date post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+				<span class="archive-date post-date">{{ post.date | date_to_long_string }}</span>
 				<a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
 			</li>
 
