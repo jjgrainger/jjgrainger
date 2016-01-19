@@ -23,13 +23,13 @@ layout: default
         <div class="post-nav">
             {% if page.previous %}
                 <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" class="post-nav--prev">
-                   <span class="nav-title nav-title-prev">&lt; {{page.previous.title}}</span>
+                   <span class="nav-title nav-title-prev"><span class="arrow">&larr;</span> {{page.previous.title}}</span>
                 </a>
             {% endif %}
 
             {% if page.next %}
                 <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" class="post-nav--next">
-                    <span class="nav-title nav-title-next">{{page.next.title}} &gt;</span>
+                    <span class="nav-title nav-title-next">{{page.next.title}} <span class="arrow">&rarr;</span></span>
                 </a>
             {% endif %}
         </div>
