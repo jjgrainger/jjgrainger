@@ -1,9 +1,16 @@
+// Colours
+
+$title: #2D2F33;
+$link: #6097B3;
+$body: #4B4E52;
+
 html,
 body {
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 21px;
     line-height: 1.8;
-    color: #444;
+    color: $body;
     background-color: #fff;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -67,7 +74,7 @@ footer {
 h1, h2, h3, h4, h5, h6 {
     margin: 3rem 0 1.5rem;
     font-weight: 600;
-    color: #000;
+    color: $title;
 }
 
 h1 {
@@ -123,7 +130,9 @@ pre code {
 var,
 kbd,
 code {
-    color: #93a1a1;
+    color: $body;
+    padding: .2rem;
+    background-color: #f7f7f7;
 }
 
 pre code {
@@ -137,13 +146,14 @@ a,
 a:link,
 a:visited,
 a:active {
-    color: #000;
+    color: $link;
     text-decoration: none;
+    transition: color ease .3s;
 }
 
 a:hover {
-    /*text-decoration: underline;*/
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid $link;
+    transition: color ease .3s;
 }
 
 ol,
@@ -185,11 +195,12 @@ blockquote p {
     font-style: italic;
 }
 
-
+a.post-title,
 .post-title {
     margin-top: 0;
     text-align: center;
     font-weight: 600;
+    color: $title;
 }
 
 .post-meta {
@@ -272,12 +283,40 @@ blockquote p {
 
 .nav {
 	overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 .nav li {
 	float: left;
 	list-style-type: none;
 }
+
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    float: none;
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.social a {
+    color: $body;
+    font-size: 1.25rem;
+}
+
+.social a:hover {
+    border-bottom: 0;
+    color: $body;
+}
+
+.social a:hover .fa-twitter { color: #55acee; }
+.social a:hover .fa-github { color: #333333; }
+.social a:hover .fa-rss { color: #f26522; }
+
 
 
 @media(max-width: 600px) {
