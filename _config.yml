@@ -8,9 +8,14 @@ url: "http://jjgrainger.co.uk"
 # define permalink structure
 permalink: /:year/:month/:day/:title/
 
-# use pygments for syntax highlighting
-highlighter: pygments
+# use rouge for syntax highlighting
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 
 # author information
 author: "jjgrainger"
