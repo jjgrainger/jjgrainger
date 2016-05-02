@@ -4,7 +4,7 @@ title: Info
 permalink: /info/
 ---
 
-#Info
+# Info
 
 Hello, I'm Joe Grainger.
 

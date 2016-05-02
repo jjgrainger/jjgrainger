@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-#Projects
+# Projects
 
 <h3 style="margin-bottom: 0;">
     <a href="http://github.com/jjgrainger/wp-custom-post-type-class">WordPress Custom Post Type Class</a>
