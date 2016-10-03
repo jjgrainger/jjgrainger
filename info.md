@@ -19,6 +19,5 @@ For those interested, this site is:
 * Powered by [Jekyll](https://github.com/mojombo/jekyll)
 * Coded with [Sublime Text](http://www.sublimetext.com/)
 * Hosted with [Github Pages](http://pages.github.com/)
-* Comments are served using [Disqus](http://disqus.com/).
 
 Subscribe to this [RSS Feed](http://feeds.feedburner.com/jjgrainger) for notifications on new posts.
