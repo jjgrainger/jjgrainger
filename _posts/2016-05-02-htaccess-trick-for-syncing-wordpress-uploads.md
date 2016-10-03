@@ -10,7 +10,7 @@ Having to download the uploads via FTP can take some time, fortunately with a si
 
 Simply create a `.htaccess` file inside the `/uploads` folder with the following code, replacing the URL with the production sites address.
 
-```
+```apache
 # Attempt to load files from production if they're not in our local version
 
 RewriteEngine on
