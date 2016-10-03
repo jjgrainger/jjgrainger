@@ -20,7 +20,7 @@ I [created a PHP class](http://github.com/jjgrainger/wp-custom-post-type-class) 
 
 First [download](http://github.com/jjgrainger/wp-custom-post-type-class) and include the class file into your themes functions.php like so:
 
-```php
+```php?start_inline=true
 include_once('CPT.php');
 ```
 
@@ -30,13 +30,13 @@ And we're ready to rock and roll. We're going to use a 'books' example to demons
 
 To create a post type you simple create a new object from the class passing the post type name.
 
-```php
+```php?start_inline=true
 $books = new CPT('book');
 ```
 
 The post type name is required as the class will automatically generate the labels from this name (by capitalizing and adding an 's' at the end). If you post type name cannot be pluralized this way e.g Person -> People, you can provide an array of the names you want:
 
-```php
+```php?start_inline=true
 $people = new CPT(array(
     'post_type_name' => 'person',
     'singular' => 'Person',
@@ -51,7 +51,7 @@ The optional second parameter is the arguments for the post type used by the `re
 
 The class uses the Wordpress defaults where possible. To override the default options simply pass an array of options as the second parameter. Not all options have to be passed just the ones you want to add/override like so:
 
-```php
+```php?start_inline=true
 $books = new CPT('book', array(
     'supports' => array('title', 'editor', 'thumbnail', 'comments')
 ));
@@ -65,7 +65,7 @@ And thats you've created your post type. Whats next?
 
 You can add taxonomies easily using the `register_taxonomy` method like so:
 
-```php
+```php?start_inline=true
 $books->register_taxonomy('genres');
 ```
 
@@ -78,7 +78,7 @@ When you register a taxonomy through the class, the taxonomy is *automagically* 
 
 You can define what filters you want to appear by using the `filters()` method:
 
-```php
+```php?start_inline=true
 $books->filters(array('genre'));
 ```
 
@@ -91,7 +91,7 @@ You can add your own custom columns to include what ever value you want, for exa
 
 You can define what columns you want to appear on the admin edit screen with the `columns()` method by passing an array like so:
 
-```php
+```php?start_inline=true
 $books->columns(array(
     'cb' => '<input type="checkbox" />',
     'title' => __('Title'),
@@ -110,7 +110,7 @@ You will need to create a function to populate a column that isn't automatically
 
 You do so with the `populate_column()` method like so:
 
-```php
+```php?start_inline=true
 $books->populate_column('column_name', function($column, $post) {
 
     // your code goes here…
@@ -120,7 +120,7 @@ $books->populate_column('column_name', function($column, $post) {
 
 so we can populate our price column like so:
 
-```php
+```php?start_inline=true
 $books->populate_column('price', function($column, $post) {
 
     echo "£" . get_field('price'); // ACF get_field() function
@@ -134,7 +134,7 @@ $books->populate_column('price', function($column, $post) {
 
 If it makes sense that column should be sortable by ascending/descending you can define custom sortable columns like so:
 
-```php
+```php?start_inline=true
 $books->sortable(array(
     'column_name' => array('meta_key', true)
 ));
@@ -144,7 +144,7 @@ The true/false is used to define whether the meta value is a string or integer, 
 
 so for our books example you will use:
 
-```php
+```php?start_inline=true
 $books->sortable(array(
     'price' => array('price', true),
     'rating' => array('rating', true)
