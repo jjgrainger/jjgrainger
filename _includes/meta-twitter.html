@@ -9,9 +9,13 @@
 {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 {% endif %}
-<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+{% if page.content %}
+    <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+{% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
 {% if page.image %}
-        <meta name="twitter:image:src" content="{{ page.image }}">
+    <meta name="twitter:image:src" content="{{ page.image }}">
 {% else %}
     <meta name="twitter:image:src" content="https://secure.gravatar.com/avatar/b19bca0a2c2598b90dca610982420267?s=500">
 {% endif %}
