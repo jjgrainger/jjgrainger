@@ -11,6 +11,9 @@ permalink: /:year/:month/:day/:title/
 sass:
   style: compressed
 
+feed:
+  path: atom.xml
+
 # use rouge for syntax highlighting
 markdown: kramdown
 highlighter: rouge
