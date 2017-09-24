@@ -3,26 +3,24 @@ name:  "jjgrainger"
 description: "Web Developer, Falmouth, Cornwall, UK"
 baseurl: ""
 url: "http://jjgrainger.co.uk"
-
-# post settings
-# define permalink structure
 permalink: /:year/:month/:day/:title/
+
+# build configuration
+sass:
+  style: compressed
+
+feed:
+  path: atom.xml
 
 # use rouge for syntax highlighting
 markdown: kramdown
 highlighter: rouge
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-
 # author information
 author: "jjgrainger"
 author_email: "joe@jjgrainger.co.uk"
-
-# google authorship url
 google_authorship: "https://plus.google.com/116065378192330753914"
 
-# ignore node_modules
-exclude: ['node_modules', 'README.md', 'package.json', 'gruntfile.js']
+# ingore files on build
+exclude:
+  - 'README.md'
