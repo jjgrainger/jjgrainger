@@ -19,7 +19,9 @@ highlighter: rouge
 # author information
 author: "jjgrainger"
 author_email: "joe@jjgrainger.co.uk"
-google_authorship: "https://plus.google.com/116065378192330753914"
+
+plugins:
+  - jekyll-feed
 
 # ingore files on build
 exclude:
