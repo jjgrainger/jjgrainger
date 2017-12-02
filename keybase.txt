@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/jjgrainger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jjgrainger.co.uk
+  * I am jjgrainger (https://keybase.io/jjgrainger) on keybase.
+  * I have a public key ASC9scILu4ztrzC5CGV9pQe3kOVsxzs6eDqJgDsg9kccuQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cefc603feb8f1ccfa4b8e47227b568024fe030bd6f381b79622d1df855ff90810a",
+      "host": "keybase.io",
+      "kid": "0120bdb1c20bbb8cedaf30b908657da507b790e56cc73b3a783a89803b20f6471cb90a",
+      "uid": "a0c2b5194a234404c79d94b495e76e19",
+      "username": "jjgrainger"
+    },
+    "merkle_root": {
+      "ctime": 1512230009,
+      "hash": "be66aaf4f3d20ad83f96b3686e0d225db6d5cef95bb72719cc3c264f57c0ad663bb113c1452a724362d9ae896f14f67fc363e4e2f2a8a1e598249397246e7446",
+      "hash_meta": "a1da6ddf639975c8371d148326bc8c0e18a337c65d26cb5d811ffd3983edd6a8",
+      "seqno": 1772070
+    },
+    "service": {
+      "hostname": "jjgrainger.co.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1512230015,
+  "expire_in": 504576000,
+  "prev": "d7bf5ecc1408eca37cd1aad951fd7535ad2cb1ca939f0cf778e6ba179fa01b29",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvbHCC7uM7a8wuQhlfaUHt5DlbMc7Ong6iYA7IPZHHLkKp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2VmYzYwM2ZlYjhmMWNjZmE0YjhlNDcyMjdiNTY4MDI0ZmUwMzBiZDZmMzgxYjc5NjIyZDFkZjg1NWZmOTA4MTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmRiMWMyMGJiYjhjZWRhZjMwYjkwODY1N2RhNTA3Yjc5MGU1NmNjNzNiM2E3ODNhODk4MDNiMjBmNjQ3MWNiOTBhIiwidWlkIjoiYTBjMmI1MTk0YTIzNDQwNGM3OWQ5NGI0OTVlNzZlMTkiLCJ1c2VybmFtZSI6ImpqZ3JhaW5nZXIifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTIyMzAwMDksImhhc2giOiJiZTY2YWFmNGYzZDIwYWQ4M2Y5NmIzNjg2ZTBkMjI1ZGI2ZDVjZWY5NWJiNzI3MTljYzNjMjY0ZjU3YzBhZDY2M2JiMTEzYzE0NTJhNzI0MzYyZDlhZTg5NmYxNGY2N2ZjMzYzZTRlMmYyYThhMWU1OTgyNDkzOTcyNDZlNzQ0NiIsImhhc2hfbWV0YSI6ImExZGE2ZGRmNjM5OTc1YzgzNzFkMTQ4MzI2YmM4YzBlMThhMzM3YzY1ZDI2Y2I1ZDgxMWZmZDM5ODNlZGQ2YTgiLCJzZXFubyI6MTc3MjA3MH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqamdyYWluZ2VyLmNvLnVrIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzQifSwiY3RpbWUiOjE1MTIyMzAwMTUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiZDdiZjVlY2MxNDA4ZWNhMzdjZDFhYWQ5NTFmZDc1MzVhZDJjYjFjYTkzOWYwY2Y3NzhlNmJhMTc5ZmEwMWIyOSIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQN21hiqmlNXk2QSdoZnAyv18gV9aPDgTwu3DtnEALTpTFIUngMjhNIjiMiZf9pWq8hD7P4l5+kIJDYRAhT/esAOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCEEdEim8HJI2LG+MQAmINu9TIIl1pxdlp3gWo43/Na6qN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jjgrainger
+
+==================================================================
