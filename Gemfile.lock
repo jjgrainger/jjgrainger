@@ -69,6 +69,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 2.0)
       typhoeus (~> 0.7)
+    highline (1.7.10)
     html-pipeline (2.7.1)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -215,6 +216,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  highline
   jekyll-compose
   jekyll-feed
 
