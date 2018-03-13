@@ -7,6 +7,13 @@
 @import '_syntax-native.scss';
 @import '_syntax-edits.scss';
 
+@import 'header.scss';
+@import 'footer.scss';
+
+@import 'post.scss';
+
+
+
 // projects
 @import 'projects.scss';
 @import 'projects/ohthatsnice.scss';

@@ -1,0 +1,29 @@
+.header {
+    padding: 3rem 0;
+    color: #aaa;
+    // background-color: #fff;
+    font-size: .875rem;
+    // border-bottom: 1px solid #f5f5f5;
+    // text-transform: uppercase;
+    // font-weight: bold;
+}
+
+.header a {
+    color: #aaa;
+
+    &:hover {
+        color: #333;
+    }
+}
+
+.site-description {
+    color: #aaa;
+}
+
+.menu-header {
+    float: right;
+}
+
+.menu-header a {
+    margin-left: 1em;
+}

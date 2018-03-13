@@ -1,0 +1,66 @@
+.post-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+a.post-title,
+.post-title {
+    color: $title;
+}
+
+.post-meta {}
+
+.post-date {
+    color: #aaa;
+    font-size: .875rem;
+}
+
+.post-content {
+    margin-bottom: 4.5rem;
+}
+
+
+.post-nav {
+    clear: both;
+    overflow: hidden;
+}
+
+
+.post-nav--prev,
+.post-nav--next {
+    width: 50%;
+    float: left;
+}
+
+.post-nav--prev:hover,
+.post-nav--next:hover {
+    border: 0;
+}
+
+.post-nav--next .arrow,
+.post-nav--prev .arrow {
+    font-family: sans-serif;
+}
+
+.post-nav--next {
+    float: right;
+    text-align: right;
+}
+
+.post-list {
+    padding: 0;
+}
+
+.post-list li {
+    overflow: hidden;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+}
+
+.post-list .post-date {
+    display: block;
+}
+
+.post-list .post-title {
+    font-size: 1.125em;
+}
