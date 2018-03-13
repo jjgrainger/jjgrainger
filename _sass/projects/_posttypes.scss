@@ -1,0 +1,18 @@
+#posttypes {
+    background: #fafafa;
+}
+
+#posttypes .icon {
+    font-size: 6rem;
+    color: #333;
+    animation: pin 6s infinite;
+}
+
+@keyframes pin {
+    from { transform: translateY(0); }
+    10% { transform: translateY(-10%); }
+    15% { transform: translateY(0); }
+    25% { transform: rotate(-45deg); }
+    90% { transform: rotate(-45deg); }
+    to { transform: rotate(0); }
+}

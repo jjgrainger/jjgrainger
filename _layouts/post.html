@@ -5,19 +5,18 @@ layout: default
 
     <article class="single-post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <p class="post-meta">
-            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {{ page.date | date_to_long_string }}
-            </time>
-        </p>
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
 
-        <h1 class="post-title">{{ page.title }}</h1>
-
+            <p class="post-meta">
+                <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ page.date | date_to_long_string }}
+                </time>
+            </p>
+        </header>
 
         <div class="post-content" itemprop="articleBody">
-
             {{ content }}
-
         </div>
 
         <div class="post-nav">

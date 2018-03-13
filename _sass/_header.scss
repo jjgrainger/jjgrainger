@@ -1,0 +1,25 @@
+.header {
+    padding: 3rem 0;
+    font-size: .875em;
+    color: #aaa;
+}
+
+.header a {
+    color: #aaa;
+
+    &:hover {
+        color: #333;
+    }
+}
+
+.site-description {
+    color: #aaa;
+}
+
+.menu-header {
+    float: right;
+}
+
+.menu-header a {
+    margin-left: 1em;
+}

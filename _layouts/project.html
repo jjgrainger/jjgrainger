@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="single-project">
+    <header class="project-header">
+        <p class="post-meta">
+            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ page.date | date_to_long_string }}
+            </time>
+        </p>
+
+        <h1 class="project-title">{{ page.title }}</h1>
+
+        <p class="project-description">{{ page.description }}</p>
+    </header>
+
+    <div class="project-content" itemprop="articleBody">
+
+        <div class="project-image" id="{{ page.image }}">
+            <span class="icon {{ page.icon }}"></span>
+        </div>
+
+        {{ content }}
+    </div>
+</article>

@@ -1,0 +1,61 @@
+.project-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.project-title {}
+
+.project-description {
+    font-size: 1.125rem;
+    font-style: italic;
+}
+
+.project-image {
+    position: relative;
+    padding-bottom: 40%;
+    margin-bottom: 3rem;
+    text-align: center;
+
+    .icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+
+.grid-item {
+    align-self: center;
+}
+
+.project-grid-image {
+    display: block;
+    position: relative;
+    padding-bottom: 100%;
+    background: #fafafa;
+    margin: 0;
+    border: 0!important;
+
+    .icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        font-size: 3rem!important;
+    }
+}
+
+.project-grid {
+    text-align: center;
+}

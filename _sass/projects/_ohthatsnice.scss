@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+#ohthatsnice {
+    background: #DE5049;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+    .icon {
+        font-size: 6rem;
+        color: #fff;
+        animation: pulse 3s infinite;
+    }
+}
+
+@keyframes pulse {
+    from { transform: scale3d(1, 1, 1); }
+    50% { transform: scale3d(1.4, 1.4, 1.4); }
+    to { transform: scale3d(1, 1, 1); }
+}

@@ -1,16 +1,13 @@
 ---
-layout: default
-title: Info
+layout: about
+title: 👋 Hello There!
+description: My name is Joe Grainger.
 permalink: /info/
 ---
 
-# Info
-
-Hello, I'm Joe Grainger.
-
 I'm a web developer living in Falmouth, Cornwall, currently working at [Venn&nbsp;Creative](http://venncreative.co.uk/).
 
-I [build](http://www.github.com/jjgrainger/) things with code, I [write](http://jjgrainger.co.uk) stuff about code and I [tweet](http://www.twitter.com/jjgrainger) tweets about code too.
+I [build](/projects/) things with code, I [write](http://jjgrainger.co.uk) stuff about code and I [tweet](http://www.twitter.com/jjgrainger) tweets about code too.
 
 You can find me on [Twitter](http://www.twitter.com/jjgrainger), [Github](http://www.github.com/jjgrainger/) and [Google+](https://plus.google.com/116065378192330753914).
 

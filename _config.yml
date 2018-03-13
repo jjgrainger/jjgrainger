@@ -12,6 +12,11 @@ sass:
 feed:
   path: atom.xml
 
+# add project collection
+collections:
+  projects:
+    output: true
+
 # use rouge for syntax highlighting
 markdown: kramdown
 highlighter: rouge
