@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<header class="center">
+    <h1>Projects</h1>
+</header>
+
+<div class="grid">
+    {% for project in site.projects %}
+        <div class="grid-item project-grid">
+            <a href="{{ project.url }}" class="project-grid-image" id="{{ project.image }}">
+                <span class="icon {{project.icon }}"></span>
+            </a>
+        </div>
+        <div class="grid-item">
+            <h4 style="margin: 0;">
+                <a href="{{ project.url }}">{{ project.title }}</a>
+            </h4>
+            <p>{{ project.description }}</p>
+        </div>
+    {% endfor %}
+</div>
