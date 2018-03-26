@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projects
 ---
 
 <article class="single-page">
@@ -16,7 +17,7 @@ layout: default
             {% for project in site.projects %}
                 <div class="grid-item project-grid">
                     <a href="{{ project.url }}" class="project-grid-image" id="{{ project.image }}">
-                        <span class="icon {{project.icon }}"></span>
+                        {% include projects/{{ project.image }}.html %}
                     </a>
                 </div>
                 <div class="grid-item">

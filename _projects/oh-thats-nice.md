@@ -2,7 +2,6 @@
 title: Oh That's Nice
 description: A showcase of beautiful websites.
 image: ohthatsnice
-icon: fas fa-heart
 layout: project
 ---
 

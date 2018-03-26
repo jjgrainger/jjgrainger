@@ -2,7 +2,6 @@
 title: PostTypes
 description: Simple WordPress custom post types.
 image: posttypes
-icon: fas fa-thumbtack
 layout: project
 ---
 

@@ -18,7 +18,7 @@ layout: default
     <div class="project-content" itemprop="articleBody">
 
         <div class="project-image" id="{{ page.image }}">
-            <span class="icon {{ page.icon }}"></span>
+            {% include projects/{{ page.image }}.html %}
         </div>
 
         {{ content }}
