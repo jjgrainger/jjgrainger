@@ -1,22 +1,17 @@
 ---
 layout: default
 permalink: /
+description: Web Developer, Falmouth, Cornwall, UK
 ---
 
-	<section class="section section-home">
+<section class="section section-home">
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="archive-date post-date">{{ post.date | date_to_long_string }}</span>
 
-		<ul class="post-list">
-
-			{% for post in site.posts %}
-
-			<li>
-				<span class="archive-date post-date">{{ post.date | date_to_long_string }}</span>
-
-				<a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
-			</li>
-
-			{% endfor %}
-
-		</ul>
-
-	</section>
+            <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
