@@ -2,7 +2,6 @@
 title: Snowflakes
 description: Create your own personalised snowflake.
 image: snowflakes
-icon: fas fa-snowflake
 layout: project
 ---
 

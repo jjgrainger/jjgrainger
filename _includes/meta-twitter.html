@@ -1,11 +1,12 @@
+{% if page.description %}
+    {% assign description = page.description %}
+{% else %}
+    {% assign description = page.content | strip_html | xml_escape | normalize_whitespace | truncate: 200 %}
+{% endif %}
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@jjgrainger">
 <meta name="twitter:creator" content="@jjgrainger">
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 <meta name="twitter:image" content="https://secure.gravatar.com/avatar/b19bca0a2c2598b90dca610982420267?s=500">
-{% if page.title %}
-<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
-{% else %}
-<meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
+<meta name="twitter:title" content="{{ page.title | default: site.name }}">
+<meta name="twitter:description" content="{{ description | default: site.description  }}">

@@ -28,7 +28,7 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 1fr 2fr;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
 }
@@ -52,7 +52,7 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        font-size: 3rem!important;
+        font-size: 3em!important;
     }
 }
 
