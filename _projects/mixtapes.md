@@ -1,12 +1,13 @@
 ---
 title: Mixtapes
-description: A collection of Spotify playlists to code with.
+description: A collection of Spotify playlists
 image: mixtapes
 layout: project
 ---
 
-[Mixtapes](#) is a collection of Spotify playlists.
+[Mixtapes](https://jjgrainger.co.uk/mixtapes) is a collection of Spotify playlists curated for work and fun.
 
-Cover art is generated using algorithms and shit for stuff and things.
+Cover art is created with generative art techniques using Javascript and HTML5 canvas.
 
-[Listen to the Mixtapes](#).
+[Check out the Mixtapes](https://jjgrainger.co.uk/mixtapes) and [listen on Spotify](https://open.spotify.com/user/jjgrainger).
+
