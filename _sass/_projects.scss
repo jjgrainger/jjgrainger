@@ -23,6 +23,12 @@
         top: 0;
         bottom: 0;
         margin: auto;
+
+        font-size: 6rem;
+
+        @media(max-width: 600px) {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -44,6 +50,7 @@
     background: #fafafa;
     margin: 0;
     border: 0!important;
+    border-radius: 50%;
 
     .icon {
         position: absolute;

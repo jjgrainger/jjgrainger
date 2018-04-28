@@ -1,0 +1,50 @@
+#mixtapes {
+    background: #121212;
+    color: #1db954;
+}
+
+#mixtapes .icon {
+    display: block;
+    width: 50%;
+    height: 50%;
+    max-width: 6rem;
+    max-height: 6rem;
+    text-align: center;
+    font-size: 1.5rem!important;
+}
+
+#mixtapes .icon .bar {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background: #1db954;
+    transform-origin: bottom center;
+}
+
+@keyframes beat1 {
+    from { transform: scaleY(.5); }
+    10% { transform: scaleY(1); }
+    50% { transform: scaleY(.6); }
+    60% { transform: scaleY(.9); }
+    to { transform: scaleY(.5); }
+}
+
+@keyframes beat2 {
+    from { transform: scaleY(.4); }
+    10% { transform: scaleY(.8); }
+    48% { transform: scaleY(.3); }
+    65% { transform: scaleY(.8); }
+    to { transform: scaleY(.4); }
+}
+
+@keyframes beat3 {
+    from { transform: scaleY(.3); }
+    10% { transform: scaleY(.8); }
+    55% { transform: scaleY(.2); }
+    63% { transform: scaleY(.75); }
+    to { transform: scaleY(.3); }
+}
+
+#mixtapes .icon .bar:nth-child(1) { animation: beat2 1.5s infinite linear; }
+#mixtapes .icon .bar:nth-child(2) { animation: beat1 1.5s infinite linear; }
+#mixtapes .icon .bar:nth-child(3) { animation: beat3 1.5s infinite linear; }
