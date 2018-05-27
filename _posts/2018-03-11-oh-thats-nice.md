@@ -29,7 +29,7 @@ Here's a brief list of the components involved in running Oh That's Nice.
 * Static site built with [Jekyll](https://jekyllrb.com/)
 * Automated builds and deploys with [Travis CI](https://travis-ci.org/jjgrainger/ohthatsnice)
 * Hosting with [Surge](https://surge.sh)
-* Further automation with _nicebot_
+* Further automation with [nicebot](https://github.com/jjgrainger/nicebot)
 
 I'll go into more detail about some of steps taken in future blog posts, but in the mean time, [visit the site](https://ohthatsnice.net), check it out on [Github](https://github.com/jjgrainger/ohthatsnice) and follow the project on [Twitter](https://twitter.com/OhThatsNice_).
 
