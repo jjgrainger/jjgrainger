@@ -5,16 +5,19 @@ description: My name is Joe Grainger.
 permalink: /info/
 ---
 
-I'm a web developer living in Falmouth, Cornwall, currently working at [Venn&nbsp;Creative](http://venncreative.co.uk/).
+I'm a web developer living in Falmouth, Cornwall, United Kingdom.
+
+Currently working as a Web Engineer at [10up](https://10up.com).
 
 I [build](/projects/) things with code, I [write](http://jjgrainger.co.uk) stuff about code and I [tweet](http://www.twitter.com/jjgrainger) tweets about code too.
 
-You can find me on [Twitter](http://www.twitter.com/jjgrainger), [Github](http://www.github.com/jjgrainger/) and [Google+](https://plus.google.com/116065378192330753914).
+You can find me on [Twitter](http://www.twitter.com/jjgrainger) and [Github](http://www.github.com/jjgrainger/).
 
 For those interested, this site is:
 
 * Powered by [Jekyll](https://github.com/mojombo/jekyll)
 * Coded with [Sublime Text](http://www.sublimetext.com/)
-* Hosted with [Github Pages](http://pages.github.com/)
+* Repository on [Github](https://github.com/jjgrainger/jjgrainger)
+* Hosted with [Netlify](https://www.netlify.com/)
 
 Subscribe to this [RSS Feed](http://feeds.feedburner.com/jjgrainger) for notifications on new posts.
