@@ -1,4 +1,3 @@
-jjgrainger.github.com
-=====================
+# jjgrainger
 
-My personal site, [http://jjgrainger.co.uk](http://jjgrainger.co.uk)
+My personal site at [jjgrainger.co.uk](https://jjgrainger.co.uk). Built with [Jekyll](#), hosted on [Netlify](#).
