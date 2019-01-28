@@ -15,6 +15,7 @@
     padding-bottom: 40%;
     margin-bottom: 3rem;
     text-align: center;
+    border-radius: 3px;
 
     .icon {
         position: absolute;
@@ -37,6 +38,7 @@
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
+    max-width: 500px;
 }
 
 .grid-item {
@@ -50,7 +52,7 @@
     background: #fafafa;
     margin: 0;
     border: 0!important;
-    border-radius: 50%;
+    border-radius: 3px;
 
     .icon {
         position: absolute;
@@ -59,7 +61,7 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        font-size: 3em!important;
+        font-size: 2.5rem!important;
     }
 }
 
