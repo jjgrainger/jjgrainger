@@ -23,7 +23,7 @@ highlighter: rouge
 
 # author information
 author: "jjgrainger"
-author_email: "joe@jjgrainger.co.uk"
+author_email: "hi@jjgrainger.co.uk"
 
 plugins:
   - jekyll-feed
