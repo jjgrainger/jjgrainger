@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 3.5.2'
+gem "jekyll", "~> 4.4.0"
 
 group :jekyll_plugins do
-    gem "jekyll-feed"
-    gem "jekyll-compose"
+  gem "jekyll-feed"
+  gem "jekyll-compose"
 end
 
 # Additional gems for Rake tasks
