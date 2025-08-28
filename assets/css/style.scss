@@ -2,16 +2,16 @@
 ---
 @charset 'UTF-8';
 
-@import '_reset.scss';
-@import '_style.scss';
-@import '_syntax-monokai.scss';
-@import '_syntax-edits.scss';
+@use '_reset';
+@use '_style';
+@use '_syntax-monokai';
+@use '_syntax-edits';
 
-@import 'header.scss';
-@import 'footer.scss';
-@import 'post.scss';
-@import 'projects.scss';
-@import 'projects/ohthatsnice.scss';
-@import 'projects/posttypes.scss';
-@import 'projects/snowflakes.scss';
-@import 'projects/mixtapes.scss';
+@use 'header';
+@use 'footer';
+@use 'post';
+@use 'projects';
+@use 'projects/ohthatsnice';
+@use 'projects/posttypes';
+@use 'projects/snowflakes';
+@use 'projects/mixtapes';
