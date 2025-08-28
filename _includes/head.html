@@ -3,7 +3,6 @@
 {% else %}
     {% assign description = page.content | strip_html | xml_escape | normalize_whitespace | truncate: 200 %}
 {% endif %}
-{% include tag-manager-head.html %}
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
