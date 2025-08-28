@@ -1,8 +1,4 @@
-// Colours
-
-$title: #2D2F33;
-$link: #6097B3;
-$body: #4B4E52;
+@use '_variables' as *;
 
 html,
 body {
@@ -115,7 +111,7 @@ a:active {
 }
 
 a:hover {
-    color: darken($link, 20%);
+    color: $link;
     text-decoration: underline;
     transition: color ease .3s;
 }
