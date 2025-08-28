@@ -1,19 +1,15 @@
 <!doctype html>
 <html lang="en">
-
     <head>
         {%- include head.html -%}
     </head>
-
-    <body>{% include tag-manager-body.html %}
-
         <header class="header container">
             <a href="{{ site.baseurl }}/" title="Back to Homepage" class="site-title">{{ site.name }}</a>
 
             <nav class="nav menu-header">
                 <a href="{{ site.baseurl }}/info/">Info</a>
                 <a href="{{ site.baseurl }}/projects/">Projects</a>
-                <a href="http://www.twitter.com/jjgrainger" target="_blank">Twitter</a>
+                <a href="http://www.github.com/jjgrainger" target="_blank">GitHub</a>
             </nav>
         </header>
 
@@ -23,11 +19,9 @@
 
         <footer class="container">
             <ul class="nav social">
-                <li><a href="http://www.twitter.com/jjgrainger/" target="_blank" ><span class="fab fa-twitter"></span></a></li>
                 <li><a href="http://www.github.com/jjgrainger/" target="_blank" ><span class="fab fa-github"></span></a></li>
-                <li><a href="http://feeds.feedburner.com/jjgrainger" target="_blank" ><span class="fas fa-rss"></span></a></li>
+                <li><a href="{{ site.baseurl }}/atom.xml" target="_blank" ><span class="fas fa-rss"></span></a></li>
             </ul>
         </footer>
-
     </body>
 </html>
