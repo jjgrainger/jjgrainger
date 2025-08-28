@@ -20,4 +20,4 @@ For those interested, this site is:
 * Repository on [Github](https://github.com/jjgrainger/jjgrainger)
 * Hosted with [Netlify](https://www.netlify.com/)
 
-Subscribe to this [RSS Feed](http://feeds.feedburner.com/jjgrainger) for notifications on new posts.
+Subscribe to this [RSS Feed](/atom.xml) for notifications on new posts.
