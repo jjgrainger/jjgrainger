@@ -34,4 +34,7 @@ plugins:
 
 # ingore files on build
 exclude:
-  - 'README.md'
+  - README.md
+
+include:
+  - _redirects
