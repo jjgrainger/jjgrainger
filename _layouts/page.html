@@ -4,14 +4,13 @@ layout: default
 
 <article class="single-page">
     <header class="page-header">
-        <h1 class="page-title">👋 Hello There!</h1>
+
+        <h1 class="page-title">{{ page.title }}</h1>
 
         <p class="page-description">{{ page.description }}</p>
     </header>
 
     <div class="page-content" itemprop="articleBody">
-        <img class="avatar" src="https://secure.gravatar.com/avatar/b19bca0a2c2598b90dca610982420267?size=200" alt="jjgrainger - Web Developer, Cornwall, UK" />
-
         {{ content }}
     </div>
 </article>

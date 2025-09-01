@@ -14,8 +14,12 @@ feed:
 
 # add project collection
 collections:
+  pages:
+    output: true
+    permalink: /:path/
   projects:
     output: true
+    permalink: /projects/:path/
 
 # use rouge for syntax highlighting
 markdown: kramdown
@@ -30,4 +34,7 @@ plugins:
 
 # ingore files on build
 exclude:
-  - 'README.md'
+  - README.md
+
+include:
+  - _redirects
